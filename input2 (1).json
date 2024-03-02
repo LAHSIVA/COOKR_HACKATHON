@@ -1,0 +1,65 @@
+{
+  "kitchens": {
+    "k1": [11.023471, 77.001293],
+    "k2": [11.023497, 77.005681],
+    "k3": [11.024639, 77.006748],
+    "k4": [11.034149, 77.003024],
+    "k5": [11.030451, 77.009872],
+    "k6": [11.028573, 77.012397]
+  },
+  "customers": {
+    "c1": [11.033702657911586, 77.01163671816101],
+    "c2": [11.007561874823946, 76.95953165014242],
+    "c3": [11.026351149549376, 76.9799231805514],
+    "c4": [10.950425933588226, 77.07857344650891],
+    "c5": [11.021683, 76.992403],
+    "c6": [11.029957, 77.008261],
+    "c7": [11.018304, 77.005541],
+    "c8": [11.036049, 77.001991]
+  },
+  "num_of_orders": 8,
+  "riders": 6,
+  "max_rider_capacity": 4,
+  "orders": {
+    "order1": {
+      "kitchen": "k1",
+      "customer": "c1",
+      "expected_ready_time": 45
+    },
+    "order2": {
+      "kitchen": "k1",
+      "customer": "c3",
+      "expected_ready_time": 37
+    },
+    "order3": {
+      "kitchen": "k3",
+      "customer": "c4",
+      "expected_ready_time": 35
+    },
+    "order4": {
+      "kitchen": "k2",
+      "customer": "c5",
+      "expected_ready_time": 20
+    },
+    "order5": {
+      "kitchen": "k4",
+      "customer": "c2",
+      "expected_ready_time": 79
+    },
+    "order6": {
+      "kitchen": "k5",
+      "customer": "c6",
+      "expected_ready_time": 55
+    },
+    "order7": {
+      "kitchen": "k6",
+      "customer": "c7",
+      "expected_ready_time": 65
+    },
+    "order8": {
+      "kitchen": "k6",
+      "customer": "c8",
+      "expected_ready_time": 60
+    }
+  }
+}
